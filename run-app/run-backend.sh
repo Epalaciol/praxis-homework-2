@@ -8,4 +8,5 @@ sudo echo "export PORT=4001" >> /etc/profile.d/sh.local
 source /etc/profile.d/sh.local
 
 cd /shared
-sudo nohup ./vuego-demoapp &
+/shared/vuego-demoapp &> /dev/null &
+echo "Backend running Sr Stark"

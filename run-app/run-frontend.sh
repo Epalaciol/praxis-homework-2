@@ -56,3 +56,5 @@ end
 
 # Update nginx server  and load changes on this 
 sudo systemctl reload nginx
+
+echo "Frontend running Sr Stark"

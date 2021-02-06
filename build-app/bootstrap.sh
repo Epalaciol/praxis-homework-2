@@ -27,7 +27,7 @@ sudo echo "export PORT=4001" >> /etc/profile.d/sh.local
 source /etc/profile.d/sh.local
 
 #Downnload got repo
-sudo git clone https://github.com/benc-uk/vuego-demoapp.git /home/vagrant/vuego-demoapp
+sudo git clone https://github.com/jdmendozaa/vuego-demoapp.git /home/vagrant/vuego-demoapp
 
 
 cd /home/vagrant/vuego-demoapp/server
